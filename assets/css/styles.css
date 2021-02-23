@@ -299,12 +299,8 @@ img{
   box-shadow: 0 2px 10px rgba(135, 173, 255, 0.555);
   transition: .2s;
 }
-.wave__svg{
-  background-color: var(--text-color);
-}
 
 .wave__svg img{
-  background-color: var(--first-color-dark);
   margin: 2rem 0 ;
 }
 /* Buttons */
