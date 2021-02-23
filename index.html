@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catify</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a130041b41.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper JS Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo"><i class="fas fa-paw"></i></a>
+
+        <div class="nav__menu " id="nav-menu">
+          <ul class="nav__list ">
+            <li class="nav__item ">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item ">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#subscription" class="nav__link">Subscription</a>
+            </li>
+            <li class="nav__item">
+              <a href="#team" class="nav__link ">Team</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">Catify</h1>
+          <p class="home__description">
+            Catify helps you find stray cats easier, Swiping left and right in
+            over 3,000 Locations.
+          </p>
+        </div>
+
+        <div class="home__img">
+          <img src="./assets/img/main-svg.svg" alt="" class="home-image" />
+        </div>
+
+        <div class="home__download-container">
+
+          <div class="home__download app__store">
+            <a href="" class="home__download-text app__store-text">
+              <i class="fab fa-apple fa-lg home__icon"></i>
+              <span>Download on the</span>
+              <span>App Store</span>
+            </a>
+          </div>
+
+          <div class="home__download play__store">
+            <a href="" class="home__download-text play__store-text">
+              <i class="fab fa-google-play fa-sm home__icon"></i>
+              <span>Get it on</span>
+              <span>Play Store</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="wave__svg">
+        <img src="./assets/img/wave.svg" alt=""> 
+      </div>
+    </section>
+    <!-- Features -->
+    <section class="about section bd-container" id="about">
+      <h2 class="section-title">Features & Services</h2>
+
+      <div class="about__container bd-grid">
+
+        <div class="about__data data-one">
+          <h3 class="about__title">Open Source Application</h3>
+          <div class="about__img">
+          <img src="./assets/img/about-img-1.svg" alt="">
+          </div>
+          <p class="about__description">
+            It is an Open Source Application that helps you find stray cats more faster than any other applications
+          </p>
+        </div>
+
+        <div class="about__data data-two">
+          <h3 class="about__title">Know the Characteristics of the Cat</h3>
+          <img src="./assets/img/about-img-2.svg" alt="" class="about__img">
+          <p class="about__description">
+            You can easily identify the Characteristics of the cat, based on their data.
+          </p>
+        </div>
+
+        <div class="about__data data-three">
+          <h3 class="about__title">Message The Cats</h3>
+          <img src="./assets/img/about-img-3.svg" alt="" class="about__img">
+          <p class="about__description">
+            Swipe, Message, Repeat.
+          </p>
+          
+        </div>
+
+        <div class="about__data data-four">
+          <h3 class="about__title">Going Worldwide</h3>
+          <img src="./assets/img/about-img-4.svg" alt="" class="about__img">
+          <p class="about__description">
+            We are connected for over 3,000 countries that helps you to find
+            the best cat for you.
+          </p>
+          
+        </div>
+
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section class="pricing section bd-container" id="subscription">
+    <h2 class="section-title">Premium Subscription</h2>
+
+    <div class="sub__container">
+
+      <div class="sub__data">
+          <h2 class="sub__title">Basic</h2>
+          <div class="sub__price">FREE</div>
+          <ul class="sub__features">
+            <li><i class="fas fa-check-circle sub__description"></i> Ads</li>
+            <li><i class="fas fa-check-circle sub__description"></i> 20 swipes per day</li>
+            <li><i class="fas fa-times-circle sub__description"></i> Find more cats near you</li>
+          <li><i class="fas fa-times-circle sub__description"></i> Access Full Features of the App</li>
+          <li><i class="fas fa-times-circle sub__description"></i> Free food & clothes for the cat</li>
+          </ul>
+          <button class="button">Signup</button>
+      </div>
+
+      <div class="sub__data sub-popular">
+        <h2 class="sub__title">Pro</h2>
+        <div class="sub__price">$10/Month</div>
+        <ul class="sub__features">
+          <li><i class="fas fa-check-circle sub__description"></i> No Ads</li>
+          <li><i class="fas fa-check-circle sub__description"></i> 100 swipes per day</li>
+          <li><i class="fas fa-check-circle sub__description"></i> Find more cats near you</li>
+          <li><i class="fas fa-check-circle sub__description"></i> Access Full Features of the App</li>
+          <li><i class="fas fa-times-circle sub__description"></i> Free food & clothes for the cat</li>
+        </ul>
+        <button class="button">Buy now</button>
+    </div>
+
+    <div class="sub__data">
+      <h2 class="sub__title">Patreon</h2>
+      <div class="sub__price">$100/Year</div>
+      <ul class="sub__features">
+        <li><i class="fas fa-check-circle sub__description"></i> No Ads</li>
+          <li><i class="fas fa-check-circle sub__description"></i>  Unlimited Swipes</li>
+          <li><i class="fas fa-check-circle sub__description"></i> Find more cats near you</li>
+          <li><i class="fas fa-check-circle sub__description"></i> Access Full Features of the App</li>
+          <li><i class="fas fa-check-circle sub__description"></i> Free food & clothes for the cat</li>
+      </ul>
+      <button class="button">Buy now</button>
+  </div>
+  </div>
+      
+    </div>
+    </section>
+    <!-- Team -->
+    <section class="team section bd-container swiper-container" id="team">
+      <h2 class="section-title">Team</h2>
+
+      <div class="team__container swiper-wrapper">
+          <div class="team__data swiper-slide">
+            <img src="./assets/img/team-img-1.jpg" alt="" class="team__img" />
+            <h3 class="team__name">  Haniya Aram  </h3>
+            <p class="about__work">Web Design</p>
+            <p class="team__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. fuga
+              accusantium veritatis?
+            </p>
+          </div>
+
+          <div class="team__data swiper-slide">
+            <img src="./assets/img/team-img-2.jpg" alt="" class="team__img" />
+            <h3 class="team__name"> Ulf Adalfuns </h3>
+            <p class="about__work">UI/UX Developer</p>
+            <p class="team__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. fuga
+              accusantium veritatis?
+            </p>
+          </div>
+
+          <div class="team__data swiper-slide">
+            <img src="./assets/img/team-img-3.jpg" alt="" class="team__img" />
+            <h3 class="team__name"> Domitianus Heracles </h3>
+            <p class="about__work">App Developer</p>
+            <p class="team__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. fuga
+              accusantium veritatis?
+            </p>
+          </div>
+
+          <div class="team__data swiper-slide">
+            <img src="./assets/img/team-img-4.jpg" alt="" class="team__img" />
+            <h3 class="team__name"> Baldovin Corbinianus </h3>
+            <p class="about__work">Web Developer</p>
+            <p class="team__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. fuga
+              accusantium veritatis?
+            </p>
+          </div>
+
+          <div class="team__data swiper-slide">
+            <img src="./assets/img/team-img-5.jpg" alt="" class="team__img" />
+            <h3 class="team__name"> Samuel Nele </h3>
+            <p class="about__work">Graphic Design</p>
+            <p class="team__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. fuga
+              accusantium veritatis?
+            </p>
+          </div>
+        </div>
+        <!-- add swiper pagination -->
+        <div class="team-swiper swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__svg">
+        <img src="./assets/img/footer.svg" alt=""> 
+      </div>
+      <div class="footer__container bd-container">
+        <h1 class="footer__title">Catify</h1>
+        <p class="footer__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus error, exercitationem provident quo saepe, vero voluptatem temporibus non delectus placeat laudantium necessitatibus.</p>
+      
+        <div class="footer__social">
+          <a href="#" class="footer__link"><i class="fab fa-github"></i></a>
+          <a href="#" class="footer__link"><i class="fab fa-discord"></i></a>
+          <a href="#" class="footer__link"><i class="fab fa-reddit"></i></a>
+        </div>
+
+        <p class="footer__copy"><i class='bx bx-copyright' ></i>2021 Pandesal. All right reserved</p>
+      </div>
+  </footer>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Script JS -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
