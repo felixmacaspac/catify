@@ -215,6 +215,10 @@ img{
   color: var(--first-color-dark);
 }
 
+.scroll-header, .scroll-header .nav__toggle, .scroll-header .nav__link:hover{
+  color:var(--first-color-lighten);
+}
+
 .scroll-header .nav__menu{
   background-color: var(--text-color); 
 }
