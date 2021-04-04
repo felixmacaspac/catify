@@ -57,10 +57,16 @@
 /* Base */
 *,::before,::after{
   box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 html{
   scroll-behavior: smooth;
+}
+
+html:focus{
+  outline: 0;
+  border: 0;
 }
 
 body{
