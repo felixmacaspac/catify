@@ -249,7 +249,7 @@ img {
 
 .home__container {
   position: relative;
-  height: calc(100vh - var(--header-height));
+  /* height: calc(100vh - var(--header-height)); */
   grid-template-rows: repeat(2, max-content);
   align-content: space-around;
   row-gap: 2rem;

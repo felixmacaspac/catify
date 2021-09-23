@@ -55,7 +55,7 @@ function scrollHeader() {
 window.addEventListener("scroll", scrollHeader);
 
 // Swiper JS
-const swiper = new Swiper(".swiper-container", {
+new Swiper(".swiper", {
   slidesPerView: 1,
   spaceBetween: 16,
   loop: true,
